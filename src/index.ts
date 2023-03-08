@@ -1,11 +1,12 @@
 let sliderButtons: NodeListOf<Element>
 let sliderImages: NodeListOf<Element>
-let firstImage = document.getElementById("img1") as HTMLElement
+let firstImage: HTMLElement
 
 let autoPlay: boolean = true
 let counter: number = 1
 
 window.onload = function() {
+    
     sliderButtons = document.querySelectorAll('.slider-btn')
     sliderImages = document.querySelectorAll('.slider-img')
     startSlider()
@@ -13,11 +14,11 @@ window.onload = function() {
 
 function startSlider() {
     console.log(1)
-
+    firstImage = document.querySelector(".slider-img") as HTMLElement
     firstImage.classList.remove("invisible")
 
     sliderButtons.forEach((button: Element, index: number) => {
-        button.addEventListener("click", displayImg)
+        button.addEventListener("click", displayImgListener)
         button.setAttribute("id", index.toString())
         console.log("Lala")
     })
@@ -25,14 +26,15 @@ function startSlider() {
     console.log(2)
 }
 
-function displayImg(e: Event) {
-    autoPlay = false
-    let clickedButton = e.target
-    console.log(4)
-    let buttonId: string = "btn" + clickedButton.id.toString()
-
+function displayImg(index: number) {
     sliderImages.forEach(img => {
         img.classList.add("invisible")
-        
     })
+    sliderImages[index].classList.remove("invisible")
+}
+
+function displayImgListener(e: Event) {
+    autoPlay = false
+    let clickedButton = e.target as HTMLElement
+    displayImg(Number(clickedButton.id))
 }
