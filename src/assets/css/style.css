@@ -63,3 +63,16 @@ order: 0;
 .carrousel li{
     list-style: none;
 }
+
+.images a {
+    display: none;
+}
+
+.images.invisible {
+    display: none;
+}
+
+.carrousel-dots input {
+    cursor: pointer;
+}
+
