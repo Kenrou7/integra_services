@@ -3,6 +3,7 @@
     padding: 0;
     position: relative;
 }
+
 .header{
     background-color: black;
     color: white;
@@ -13,17 +14,17 @@
     height: 69px;
     left: 0px;
     top: 79px;
+}
 
+/* .title {
+    position: absolute;
+    width: 1440px;
 }
-.title{
-    /* position: absolute; */
-/* width: 1440px; */
-}
-.menu{
-    /* position: absolute; */
-/* width: 1440px; */
+.menu {
+    position: absolute;
+    width: 1440px;
+} */
 
-}
 .menu li{
     list-style: none;
     border: 1px solid white;
@@ -39,40 +40,39 @@
     /* Contacto */
 
 
-font-family: 'Roboto';
-font-style: normal;
-/* identical to box height */
-text-align: center;
-box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+    /* identical to box height */
+    text-align: center;
+    box-sizing: border-box;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 
-/* Inside auto layout */
-/* 
-flex: none; */
-order: 0;
-/* flex-grow: 0; */
-    white-space: nowrap;
+    /* Inside auto layout */
+    /* 
+    flex: none; */
+    order: 0;
+    /* flex-grow: 0; */
+        white-space: nowrap;
 }
+
 .menu ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .carrousel li{
     list-style: none;
 }
 
-.images a {
-    display: none;
-}
-
-.images.invisible {
+/*Slider CSS*/
+.invisible {
     display: none;
 }
 
 .carrousel-dots input {
     cursor: pointer;
 }
-
+/*Slider CSS ends*/
