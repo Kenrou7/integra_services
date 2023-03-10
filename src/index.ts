@@ -29,6 +29,7 @@ function startSlider() {
                                         <a href="*" class="invisible slider-img"><img src="./assets/img/home_banner_${i}.png"/></a>
                                   </li>`
 
+        buttonDisplayInnerHtml += `<input type="radio" class="slider-btn" name="slider">`
         
     }
     sliderButtons = document.querySelectorAll('.slider-btn')
