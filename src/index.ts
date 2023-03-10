@@ -1,19 +1,40 @@
+let numberOfImages: number = 4
+
+let imagesDisplay: HTMLElement
+let imagesDisplayInnerHtml: string
+
+let buttonDisplay: HTMLElement
+let buttonDisplayInnerHtml: string
+
 let sliderButtons: NodeListOf<HTMLInputElement>
 let sliderImages: NodeListOf<Element>
 
-let numberOfImages: number = 4
 let autoPlay: boolean = true
-let counter: number = 1
+let counter: number = 0
 
 window.onload = function() {
-    sliderButtons = document.querySelectorAll('.slider-btn')
-    sliderImages = document.querySelectorAll('.slider-img')
     startSlider()
 }
 
 function startSlider() {
-    sliderImages[0].classList.remove("invisible")
-    sliderButtons[0].checked = true
+    imagesDisplay = document.querySelector(".images-display") as HTMLElement
+    imagesDisplayInnerHtml = imagesDisplay.innerHTML
+
+    buttonDisplay = document.querySelector(".carrousel-dots") as HTMLElement
+    buttonDisplayInnerHtml = buttonDisplay.innerHTML
+
+    for(let i = 1; i <= numberOfImages; i++) {
+        console.log(i)
+        imagesDisplayInnerHtml += `<li>
+                                        <a href="*" class="invisible slider-img"><img src="./assets/img/home_banner_${i}.png"/></a>
+                                  </li>`
+
+        
+    }
+    sliderButtons = document.querySelectorAll('.slider-btn')
+    sliderImages = document.querySelectorAll('.slider-img')
+    sliderImages[counter].classList.remove("invisible")
+    sliderButtons[counter].checked = true
 
     autoSlider()
 
@@ -34,10 +55,10 @@ function displayImg(index: number) {
 function autoSlider() {
     setInterval(function() {
         if(autoPlay) {
-            displayImg(counter)
             counter = (counter + 1) % numberOfImages
+            displayImg(counter)
         }
-    }, 3000)
+    }, 4000)
 }
 
 function displayImgListener(e: Event) {
