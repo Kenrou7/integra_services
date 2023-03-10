@@ -56,13 +56,21 @@
     flex: none; */
     order: 0;
     /* flex-grow: 0; */
-        white-space: nowrap;
+    white-space: nowrap;
 }
 
 .menu ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.carrousel {
+    /* justify-content: center;
+    align-items: center;
+    position: absolute; */
+    /* max-width: 100vw;
+    max-height: 1000px; */
 }
 
 .carrousel li{
