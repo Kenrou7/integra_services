@@ -1,20 +1,22 @@
+* {
+    margin: 0;
+}
+
 .container{
     margin: 0;
     padding: 0;
     position: relative;
 }
 
-.header{
+header{
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 69px;
     left: 0px;
     top: 0px;
-    position: fixed;
     width: 100%
 }
 
@@ -66,18 +68,31 @@
 }
 
 .carrousel {
-    /* justify-content: center;
-    align-items: center;
-    position: absolute; */
-    /* max-width: 100vw;
-    max-height: 1000px; */
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 800px;
 }
 
 .carrousel li{
-    list-style: none;
+    /* list-style: none;
     position: absolute center top;
     width: 100%;
-    height: 696px;
+    height: 696px; */
+    padding: 0  10px;
+    /* top: 70px; */
+/* A ver si ustedes logran centrarlo */
+    /* width: 1440px;
+    height: 696px; */
+
 }
 
 /*Slider CSS*/
@@ -88,6 +103,7 @@
 .carrousel-dots input {
     cursor: pointer;
 }
+
 /*Slider CSS ends*/
 .h2 {
     color: black;
@@ -161,14 +177,14 @@
 
 #col1 {
     PADDING-RIGHT: 2px;
-DISPLAY: inline;
-FLOAT: left;
-WIDTH: 50%;
+    DISPLAY: inline;
+    FLOAT: left;
+    WIDTH: 50%;
 }
 
 #col2 {
     PADDING-RIGHT: 2px;
-DISPLAY: inline;
-FLOAT: right;
-WIDTH: 50%;
+    DISPLAY: inline;
+    FLOAT: right;
+    WIDTH: 50%;
 }
