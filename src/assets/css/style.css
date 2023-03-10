@@ -81,6 +81,65 @@
     cursor: pointer;
 }
 /*Slider CSS ends*/
+.h2 {
+    color: black;
+    position: absolute;
+    font-size: large;
+    font: roboto;
+    align-self: center;
+}
+
+#peg {
+    height: 140px;
+    width: 140px;
+    left: 23px;
+    top: 14px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    background-image: url("../buttons/pegamentos.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+#med {
+    height: 140px;
+    width: 140px;
+    left: 23px;
+    top: 14px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    background-image: url("../buttons/medicion.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+#herr {
+    height: 140px;
+    width: 140px;
+    left: 23px;
+    top: 14px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    background-image: url("../buttons/herramientas.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+#hid {
+    height: 140px;
+    width: 140px;
+    left: 23px;
+    top: 14px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    background-image: url("../buttons/hidraulica.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
 
 .footer {
     background-color: black;
