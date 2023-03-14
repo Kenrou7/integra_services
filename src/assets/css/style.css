@@ -39,8 +39,9 @@ header{
     text-align: center;
     left: 10px;
     top: 10px;
-    border-radius: nullpx;
     margin: 10px;
+    padding: 5px;
+    border-radius: 5%;
     /* Contacto */
 
 
@@ -69,7 +70,9 @@ header{
 
 .carrousel {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .carrousel ul {
@@ -100,9 +103,13 @@ img {
     display: none;
 }
 
+.carrousel-dots{
+    margin: 10px;
+}
 .carrousel-dots input {
     cursor: pointer;
 }
+
 
 /*Slider CSS ends*/
 .h2 {
@@ -112,79 +119,144 @@ img {
     font: roboto;
     align-self: center;
 }
-
-#peg {
+.categorias, .productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+.categorias h2{
+    margin:20px;
+}
+.categorias_items{
     height: 140px;
     width: 140px;
     left: 23px;
     top: 14px;
     border-radius: 50%;
     background-color: lightskyblue;
+    background-size: 80%;
+    background-position: center;
+}
+#peg {
     background-image: url("../buttons/pegamentos.png");
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
 }
-
 #med {
-    height: 140px;
-    width: 140px;
-    left: 23px;
-    top: 14px;
-    border-radius: 50%;
-    background-color: lightskyblue;
     background-image: url("../buttons/medicion.png");
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
 }
-
 #herr {
-    height: 140px;
-    width: 140px;
-    left: 23px;
-    top: 14px;
-    border-radius: 50%;
-    background-color: lightskyblue;
     background-image: url("../buttons/herramientas.png");
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
 }
-
 #hid {
-    height: 140px;
-    width: 140px;
-    left: 23px;
-    top: 14px;
-    border-radius: 50%;
-    background-color: lightskyblue;
     background-image: url("../buttons/hidraulica.png");
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
 }
+
+
+.categorias ul li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.categorias ul li a{
+    color: black;
+    text-decoration:none
+}
+.categorias ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.productos ul li{
+    list-style: none;
+    height: 100px;
+    margin: 5px;
+    
+
+    width: 344px;
+    height: 193px;
+    /* left: 712.5px;
+    top: 19px; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.productos h2{
+    margin: 20px;
+}
+
 
 .footer {
     background-color: black;
     color: white;
     width: 100%;
     height: 530px;
-    top: 2892px;
-    position: absolute;
+    /* top: 2892px; */
+    /* position: absolute; */
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 #col1 {
     PADDING-RIGHT: 2px;
-    DISPLAY: inline;
+    /* DISPLAY: inline; */
     FLOAT: left;
     WIDTH: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#col1 a{
+padding: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#col1 h3{
+    font-size: 33px;
+    line-height: 49px;
+    text-align: center;
 }
 
 #col2 {
-    PADDING-RIGHT: 2px;
-    DISPLAY: inline;
-    FLOAT: right;
-    WIDTH: 50%;
+    padding-right: 2px;
+    display: flex;
+    float: right;
+    width: 50%;
+    justify-content: center;
+}
+#col2 li{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+}
+.linea{
+    height: 288px;
+    width: 0;
+    border: solid 1px #ffff;
 }
