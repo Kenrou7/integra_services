@@ -145,19 +145,19 @@ img {
     background-position: center;
 }
 #peg {
-    background-image: url("../buttons/pegamentos.png");
+    background-image: url("../img/home/categorias/pegamentos.png");
     background-repeat: no-repeat;
 }
 #med {
-    background-image: url("../buttons/medicion.png");
+    background-image: url("../img/home/categorias/medicion.png");
     background-repeat: no-repeat;
 }
 #herr {
-    background-image: url("../buttons/herramientas.png");
+    background-image: url("../img/home/categorias/herramientas.png");
     background-repeat: no-repeat;
 }
 #hid {
-    background-image: url("../buttons/hidraulica.png");
+    background-image: url("../img/home/categorias/hidraulica.png");
     background-repeat: no-repeat;
 }
 
