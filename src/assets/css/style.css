@@ -443,6 +443,7 @@ padding: 10px;
         top: 90px;
         flex-wrap: nowrap;
         justify-content: space-around;
+        flex-flow: unset;
     }
     .productos_item {
         height: 193px;
@@ -475,6 +476,25 @@ padding: 10px;
     }
 }
 @media only screen and (max-width: 425px){
+
+    header{
+        align-items: flex-start;
+        background-color: var(--blanco);
+    }
+    .menu ul{
+        display: block;
+    }
+    .menu li:hover{
+        font-family: 'Roboto-Bold';
+    }
+    .title{
+        display: none;
+    }
+    .menu li{
+        text-align: left;
+        border: none;
+        color: var(--negro);
+    }
     .categorias{
         box-sizing: border-box;
         /* height: 239px; */
@@ -527,9 +547,18 @@ padding: 10px;
         position: absolute;
     }
     .productos{
-        height: 320px;
+        height: unset;
         top: -20px;
         position: relative;
+        flex-direction: column;
+        overflow: unset;
+    }
+    .productos_item{
+        height: 152px;
+    }
+    .productos_listado{
+        flex-flow: column;
+        top: unset;
     }
     .conocenos_herramienta img{
         width: 125px;
@@ -561,9 +590,10 @@ padding: 10px;
     .productos h2{
         font-size: 22px;
         line-height: 26px;
+        position: relative;
     }
     .footer{
-        width: 360px;
+        /* width: 360px; */
         height: 198px;
     }
     #footer_menu{
