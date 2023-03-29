@@ -26,12 +26,15 @@ function startSlider() {
     for(let i = 1; i <= numberOfImages; i++) {
         console.log(i)
         imagesDisplayInnerHtml += `<li>
-                                        <a href="*" class="invisible slider-img"><img src="./assets/img/home/banners/${i}.png"/></a>
+                                        <a href="*" class="invisible slider-img"><img src="/${i}.png"/></a>
                                   </li>`
 
         buttonDisplayInnerHtml += `<input type="radio" class="slider-btn" name="slider">`
-        
     }
+
+    imagesDisplay.innerHTML = imagesDisplayInnerHtml
+    buttonDisplay.innerHTML = buttonDisplayInnerHtml
+
     sliderButtons = document.querySelectorAll('.slider-btn')
     sliderImages = document.querySelectorAll('.slider-img')
     sliderImages[counter].classList.remove("invisible")
