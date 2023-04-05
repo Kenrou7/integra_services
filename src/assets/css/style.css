@@ -564,10 +564,8 @@ padding: 10px;
     #menu:checked +#label_menu_back{
         /* display: block; */
         position: relative;
-        color: var(--negro);
         left: 209px;
-        z-index: 30;
-        color: black;
+        z-index: 1;
     }
     nav label{
         display: block;
@@ -579,13 +577,12 @@ padding: 10px;
         position: relative;
     }
     #label_menu_back{
-        color: var(--negro);
-        display: none;
+        color: var(--blanco);        
     }
 
-
-
-
+    #menu_back:checked + #label_menu_back{
+        display: none;
+    }
 
     
     .categorias{
