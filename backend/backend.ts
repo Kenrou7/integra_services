@@ -1,4 +1,5 @@
 import { Client, Pool } from "pg"
+import { PASSWORD } from "./password"
 
 const DATABASE_NAME = "Catálogo"
 const TABLE = "Productos"
@@ -19,7 +20,7 @@ const CREATE_TABLE_CATALOGO = `CREATE TABLE IF NOT EXISTS ${TABLE} (
 const CONNECTION_DATA = {
     user: "postgres",
     host: "localhost",
-    password: "Q2Rg7k16Hh",
+    password: PASSWORD,
     port: 5432
 }
 
