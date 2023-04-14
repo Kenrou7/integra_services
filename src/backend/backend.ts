@@ -1,8 +1,8 @@
 import { Client, Pool } from "pg"
 import { PASSWORD } from "./password"
 
-const DATABASE_NAME = "Catálogo"
-const TABLE = "Productos"
+const DATABASE_NAME = "catalogo"
+const TABLE = "productos"
 
 const EXISTS_DATABASE_QUERY = `SELECT 'CREATE DATABASE ${DATABASE_NAME}' WHERE EXISTS (SELECT datname FROM pg_database WHERE datname = '${DATABASE_NAME}');`
 const CREATE_DATABASE_QUERY = `CREATE DATABASE ${DATABASE_NAME}`
@@ -13,7 +13,7 @@ const CREATE_TABLE_CATALOGO = `CREATE TABLE IF NOT EXISTS ${TABLE} (
     price_eur int,
     available BOOLEAN,
     product_id int,
-    ean int
+    ean int,
     ansi VARCHAR(100)
 );`
 
@@ -29,14 +29,13 @@ const CONNECTION_DATA_W_DB = {
     database: DATABASE_NAME
 }
 
-//CONNECT
+//CONNECT AND CREATE
 export const connectDb = async () => {
     try {
         const client = new Client(CONNECTION_DATA)
 
         await client.connect()
         const existsDatabase = await client.query(EXISTS_DATABASE_QUERY)
-        console.log(EXISTS_DATABASE_QUERY)
 
         if(existsDatabase.rows.length == 0) {
             await client.query(CREATE_DATABASE_QUERY)
@@ -59,8 +58,8 @@ export async function getInfoFromDatabase() {
     const CONNECTION_DATA = {
         user: "postgres",
         host: "localhost",
-        database: "Valores",
-        password: "Q2Rg7k16Hh",
+        database: DATABASE_NAME,
+        password: PASSWORD,
         port: 5432
     }
 
@@ -79,8 +78,8 @@ export async function insert(idbit: string, date: string, coin: string, value: s
     const CONNECTION_DATA = {
         user: "postgres",
         host: "localhost",
-        database: "Valores",
-        password: "Q2Rg7k16Hh",
+        database: DATABASE_NAME,
+        password: PASSWORD,
         port: 5432
     }
 
