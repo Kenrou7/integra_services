@@ -1,0 +1,25 @@
+Backend
+
+1) Implementar base datos
+	i) Implementar insert // Tuni
+	ii) Implementar Select // Tuni
+	iii) Una vez reconocidos los productos de sandvik, crear las tablas como corresponde
+		Depende de 2i
+		Habilita 2ii
+	iv) Implementar select inteligente (similitud strings) (considerar al momento de inicialización del backend, guardar un archivo con todos los nombres de los productos para que la búsqueda sea más rápida)
+
+2) sandvik api
+	i) Reconocer todos las url de las cuales se puede traer productos
+		Habilita 1iii
+	ii) Insertar todos los productos en la base de datos
+		Depende de 1iii
+
+3) Conexión front-back
+	i) Implementar nuestra api para poder acceder a los productos desde la página
+
+
+Frontend
+
+4) Implementar buscador (depende del backend) (Ailu?)
+5) Arreglar responsive para que funcione bien en todos los dispositivos. // Aye
+6) Agregar logos para el modo tablet
