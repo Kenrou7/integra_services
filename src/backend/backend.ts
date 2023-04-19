@@ -1,12 +1,12 @@
 import { Client, Pool } from "pg"
-import { PASSWORD } from "./password"
+import { PASSWORD } from "./password" //Create a file called "password.ts" within this folder contaning a the following line: export const PASSWORD: string = "[your_password]"
 
 const DATABASE_NAME = "catalogo"
-const TABLE = "productos"
+const TABLE_NAME = "productos"
 
 const EXISTS_DATABASE_QUERY = `SELECT 'CREATE DATABASE ${DATABASE_NAME}' WHERE EXISTS (SELECT datname FROM pg_database WHERE datname = '${DATABASE_NAME}');`
 const CREATE_DATABASE_QUERY = `CREATE DATABASE ${DATABASE_NAME}`
-const CREATE_TABLE_CATALOGO = `CREATE TABLE IF NOT EXISTS ${TABLE} (
+const CREATE_TABLE_CATALOGO = `CREATE TABLE IF NOT EXISTS ${TABLE_NAME} (
     id serial,
     iso VARCHAR(100),
     name VARCHAR(100),
@@ -20,6 +20,7 @@ const CREATE_TABLE_CATALOGO = `CREATE TABLE IF NOT EXISTS ${TABLE} (
 const CONNECTION_DATA = {
     user: "postgres",
     host: "localhost",
+    database: DATABASE_NAME,
     password: PASSWORD,
     port: 5432
 }
@@ -29,7 +30,7 @@ const CONNECTION_DATA_W_DB = {
     database: DATABASE_NAME
 }
 
-//CONNECT AND CREATE
+//CONNECT AND CREATE DATABASE AND TABLE (if they don't exist already)
 export const connectDb = async () => {
     try {
         const client = new Client(CONNECTION_DATA)
@@ -54,16 +55,7 @@ export const connectDb = async () => {
 
 //SELECT
 export async function getInfoFromDatabase() {
-
-    const CONNECTION_DATA = {
-        user: "postgres",
-        host: "localhost",
-        database: DATABASE_NAME,
-        password: PASSWORD,
-        port: 5432
-    }
-
-    const query = "SELECT * FROM public.valores_btc"
+    const query = `SELECT * FROM public.${TABLE_NAME}`
     
     const pool = new Pool(CONNECTION_DATA)
     pool.query(query, (err, res) => {
@@ -73,18 +65,17 @@ export async function getInfoFromDatabase() {
 }
 
 //INSERT
-export async function insert(idbit: string, date: string, coin: string, value: string) {
-
-    const CONNECTION_DATA = {
-        user: "postgres",
-        host: "localhost",
-        database: DATABASE_NAME,
-        password: PASSWORD,
-        port: 5432
-    }
-
-    const query = "INSERT INTO public.valores_btc(idbit, date, coin, value)" +  
-                  `VALUES(${idbit}, '${date}', '${coin}', ${value})`
+export async function addInfoToDatabase(
+    iso: string, 
+    name: string, 
+    price_eur: number, 
+    available: boolean, 
+    product_id: number, 
+    ean: number, 
+    ansi: string
+){
+    const query = `INSERT INTO public.${TABLE_NAME}(iso, name, price_eur, available, product_id, ean, ansi)` +  
+                  `VALUES('${iso}', '${name}', ${price_eur}, ${available}, ${product_id}, ${ean}, '${ansi}')`
     
     const pool = new Pool(CONNECTION_DATA)
     await pool.query(query, async(err, res) => {
@@ -94,17 +85,3 @@ export async function insert(idbit: string, date: string, coin: string, value: s
     })
     await pool.end()
 }
-
-// export async function getInfoFromDatabase() {
-//     const client = new Client(CONNECTION_DATA_W_DB)
-//     const queryResult = await client.query(`SELECT * FROM public.${TABLE}`)
-//     await client.end()
-//     return queryResult
-// }
-
-// export async function setPrice(token: string, price: number) {
-//     const client = new Client(CONNECTION_DATA_W_DB)
-//     const queryResult = await client.query(`INSERT INTO public.${TABLE}(presio_token, presio_value) VALUES('${token}', ${price})`)
-//     await client.end()
-//     console.log(`Recording prince ${price} for token ${token}`)
-// }
