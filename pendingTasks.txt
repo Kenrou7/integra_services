@@ -1,8 +1,8 @@
 Backend
 
 1) Implementar base datos
-	i) Implementar insert // Tuni
-	ii) Implementar Select // Tuni
+	i) Implementar insert // Tuni ✓
+	ii) Implementar Select // Tuni ✓
 	iii) Una vez reconocidos los productos de sandvik, crear las tablas como corresponde
 		Depende de 2i
 		Habilita 2ii
