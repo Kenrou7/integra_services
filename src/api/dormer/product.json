@@ -1,0 +1,2809 @@
+{
+    "availableForPickup" : false,
+    "baseOptions" : [ ],
+    "brand" : {
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/logo/DORMER_RED.png"
+    },
+    "brandName" : "DORMER",
+    "categories" : [ {
+       "code" : "psf22934",
+       "diameterRange" : "3.00 - 20.00",
+       "name" : "R453",
+       "url" : "//WEX-hierarchy/Taladrado/Taladrado/Brocas-de-Metal-Duro-y-HSS---E-/R453/c/psf22934"
+    } ],
+    "classifications" : [ {
+       "code" : "Features",
+       "features" : [ {
+          "code" : "DpClassificationCatalog/1.0/Features.gra_coatingname_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Recubrimiento de nitruro de aluminio y titanio",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_COATING_TIALN.png"
+             },
+             "value" : "Recubrimiento de nitruro de aluminio y titanio"
+          } ],
+          "id" : "GRA_CoatingName_DICT_SEL",
+          "name" : "Recubrimiento",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.iso_bodymaterialcode_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Material duro",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_BMC_HM.png"
+             },
+             "value" : "HM"
+          } ],
+          "id" : "ISO_BodyMaterialCode_STR",
+          "name" : "Código de Material (BMC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.iso_basicstandardgroup_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "DIN 6537 L",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_BSG_DIN6537L.png"
+             },
+             "value" : "DIN 6537 L"
+          } ],
+          "id" : "ISO_BasicStandardGroup_STR",
+          "name" : "Grupo básico estándar (BSG)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.iso_usablelengthdiameterratio_num",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Relación entre profundidad de la herramienta y diámetro útil 5xD",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_ULDR_5XD.png"
+             },
+             "value" : "5"
+          } ],
+          "id" : "ISO_UsableLengthDiameterRatio_NUM",
+          "name" : "Longitud Útil (ULDR)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.applicationangleicon_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Punta de la broca 140°",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_APPA_DRILLPOINT_140.png"
+             },
+             "value" : "Punta de la broca 140°"
+          } ],
+          "id" : "ApplicationAngleIcon_DICT_SEL",
+          "name" : "Ángulo de aplicación",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.connectionmsdescription_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "DIN 6535 HA mango cilíndrico",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_SHANK_ZYL_DIN6535HA.png"
+             },
+             "value" : "DIN 6535 HA mango cilíndrico"
+          } ],
+          "id" : "ConnectionMSDescription_DICT_SEL",
+          "name" : "Mango",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.spiralform_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Diseno con alma continuamente adelgazada",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_SPIRALF_CTW.png"
+             },
+             "value" : "Diseno con alma continuamente adelgazada"
+          } ],
+          "id" : "SpiralForm_DICT_SEL",
+          "name" : "Forma de la Hélice",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.iso_coolantsupplyproperty_flag",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "Refrigeración interna",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_COOLANT.png"
+             },
+             "value" : "Si"
+          } ],
+          "id" : "ISO_CoolantSupplyProperty_FLAG",
+          "name" : "Refrigeración (CSP)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Features.iso_toleranceclasscuttingdiameter_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "featureDescription" : "m7 - Clase de tolerancia de la herramienta estándar en la industria (en función del margen de diámetros)",
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IR_TCDC_M7.png"
+             },
+             "value" : "m7"
+          } ],
+          "id" : "ISO_ToleranceClassCuttingDiameter_STR",
+          "name" : "Clase de tolerancia del diámetro de corte (TCDC)",
+          "range" : false
+       } ],
+       "name" : "Features"
+    }, {
+       "code" : "DimensionsGlobal",
+       "features" : [ {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.plm_ean_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "7320760623947"
+          } ],
+          "id" : "PLM_EAN_STR",
+          "name" : "Número EAN",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.pimerp_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "86019081"
+          } ],
+          "id" : "PIMERP_STR",
+          "name" : "Número de Producto Int.",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.pimorderingcodeansi_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "R4535/8"
+          } ],
+          "id" : "PIMOrderingCodeANSI_STR",
+          "name" : "Código de pedido ANSI",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.marketing_subbrand_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "FORCE X"
+          } ],
+          "id" : "Marketing_SubBrand_DICT_SEL",
+          "name" : "Línea de Producto",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.plm_grossweight_num",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "272"
+          } ],
+          "id" : "PLM_GrossWeight_NUM",
+          "name" : "Peso bruto - gramo",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_cuttingdiameter_fract_str",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "5/8"
+          } ],
+          "id" : "ISO_CuttingDiameter_FRACT_STR",
+          "name" : "Diámetro de corte - fracción de pulgada (DC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_cuttingdiameter_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm",
+             "symbol" : "mm"
+          },
+          "featureValues" : [ {
+             "value" : "15.88"
+          } ],
+          "id" : "ISO_CuttingDiameter_MET_NUM",
+          "name" : "Diámetro de corte - milímetros (DC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_cuttingdiameter_imp_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "inch",
+             "symbol" : "inch"
+          },
+          "featureValues" : [ {
+             "value" : "0.625"
+          } ],
+          "id" : "ISO_CuttingDiameter_IMP_NUM",
+          "name" : "Diámetro de corte - pulgadas (DC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_lengthchipflute_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm",
+             "symbol" : "mm"
+          },
+          "featureValues" : [ {
+             "value" : "82"
+          } ],
+          "id" : "ISO_LengthChipFlute_MET_NUM",
+          "name" : "Longitud del canal de virutas  - milímetros (LCF)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_overalllength_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm",
+             "symbol" : "mm"
+          },
+          "featureValues" : [ {
+             "value" : "133"
+          } ],
+          "id" : "ISO_OverallLength_MET_NUM",
+          "name" : "Longitud total - milímetros (OAL)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_shanklength_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm",
+             "symbol" : "mm"
+          },
+          "featureValues" : [ {
+             "value" : "48"
+          } ],
+          "id" : "ISO_ShankLength_MET_NUM",
+          "name" : "Longitud del mango - milímetros (LS)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_connectiondiameter_ms_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm",
+             "symbol" : "mm"
+          },
+          "featureValues" : [ {
+             "value" : "16"
+          } ],
+          "id" : "ISO_ConnectionDiameter_MS_MET_NUM",
+          "name" : "Diámetro de conexión - milímetros (DCON MS)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/DimensionsGlobal.iso_lengthchipflute_imp_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "inch",
+             "symbol" : "inch"
+          },
+          "featureValues" : [ {
+             "value" : "3.2283"
+          } ],
+          "id" : "ISO_LengthChipFlute_IMP_NUM",
+          "name" : "Longitud del canal de virutas  - pulgadas (LCF)",
+          "range" : false
+       } ],
+       "name" : "DimensionsGlobal"
+    }, {
+       "code" : "Generated",
+       "features" : [ {
+          "code" : "DpClassificationCatalog/1.0/Generated.applicationuse_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "value" : "S - Aleaciones termorresistentes (superaleaciones con resistencia a altas temperaturas y resistente a la corrosión que supera la del acero inoxidable)"
+          }, {
+             "value" : "K - Fundición (fundición de hierro y aleaciones de carbono con un contenido de carbono de  > 2% )"
+          }, {
+             "value" : "P - Acero y acero fundido (aceros con un contenido de aleación del 10% y una dureza < 45HRC)"
+          }, {
+             "value" : "N - Materiales No Férreos (incluidas las aleaciones sin una cantidad apreciable de hierro)"
+          }, {
+             "value" : "H - Materiales endurecidos (cualquier metal de ingeniería con una dureza de > 45HRC)"
+          } ],
+          "id" : "ApplicationUse_DICT_SEL",
+          "name" : "Aplicación de material",
+          "range" : false
+       } ],
+       "name" : "Generated"
+    }, {
+       "code" : "Applications",
+       "features" : [ {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M1_DICT_SEL",
+          "name" : "M1 - Acero inoxidable ferrítico (aleaciones al cromo no endurecidas)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p3_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P3_2_DICT_SEL",
+          "name" : "P3.2 -  Acero aleado con una dureza de 180 - 260HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P1_1_DICT_SEL",
+          "name" : "P1.1 - Acero de fácil mecanizado sulfurizados con una dureza de < 240HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p1_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P1_3_DICT_SEL",
+          "name" : "P1.3 - Acero de fácil mecanizado sulfurizados/fosforizados y al plomo con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k3_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K3_2_DICT_SEL",
+          "name" : "K3.2 - Fundición Dúctil (nodular/esferiodal), ferrítica o perlítica con una dureza de 180 - 220HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_H_DICT_SEL",
+          "name" : "H - Materiales endurecidos (cualquier metal de ingeniería con una dureza de > 45HRC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m2_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M2_2_DICT_SEL",
+          "name" : "M2.2 - Acero inoxidable martensítico con una dureza de 200 - 280HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_s1_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_S1_3_DICT_SEL",
+          "name" : "S1.3 - Aleaciones de titanio, con una dureza de 280 - 360HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n1_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N1_2_DICT_SEL",
+          "name" : "N1.2 - Aluminio forjado con una dureza de 60 - 100HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p2_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P2_2_DICT_SEL",
+          "name" : "P2.2 - Acero con un contenido medio de carbono < 0.55%C con una dureza de < 240HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m2_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M2_3_DICT_SEL",
+          "name" : "M2.3 - Acero inoxidable martensítico con una dureza de280 - 380HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k5_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K5_DICT_SEL",
+          "name" : "K5 - Fundición de grafito compactado (CGI) (fundición de hierro-carbono con estructura vermicular de gráfito)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K1_1_DICT_SEL",
+          "name" : "K1.1 - Fundición gris, ferrítica o ferrítica-perlítica con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k3_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K3_3_DICT_SEL",
+          "name" : "K3.3 - Fundición Dúctil (nodular/esferiodal), perlítica con una dureza de 220 - 260HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_H1_DICT_SEL",
+          "name" : "H1 - Fundición en frío",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_s_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_S_DICT_SEL",
+          "name" : "S - Aleaciones termorresistentes (superaleaciones con resistencia a altas temperaturas y resistente a la corrosión que supera la del acero inoxidable)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p4_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P4_DICT_SEL",
+          "name" : "P4 - Acero de Herramientas (aleaciones especiales para herramientas, moldes y matrices)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m1_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M1_2_DICT_SEL",
+          "name" : "M1.2 -  Acero inoxidable ferrítico con una dureza de  160 - 220HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_1_DICT_SEL",
+          "name" : "K4.1 - Fundición austenítica con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p2_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P2_1_DICT_SEL",
+          "name" : "P2.1 - Acero bajo en carbono con un contenido de  < 0.25%C con una dureza de  < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m4_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M4_2_DICT_SEL",
+          "name" : "M4.2 - Acero inoxidable austenítico endurecido por precipitación con una dureza  de 300 - 380HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P3_DICT_SEL",
+          "name" : "P3 - Aceros aleados (aceros al carbono con un contenido de aleación del  ≤ 10%)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k2_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K2_1_DICT_SEL",
+          "name" : "K2.1 - Fundición maleable, ferrítica con una dureza de  < 160HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n1_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N1_3_DICT_SEL",
+          "name" : "N1.3 - Aluminio forjado con una dureza de100 - 150HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m3_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M3_3_DICT_SEL",
+          "name" : "M3.3 - Acero inoxidable austenítico con una dureza de 260 - 300HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_s1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_S1_DICT_SEL",
+          "name" : "S1 - Titanio o aleaciones de titanio",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p1_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P1_2_DICT_SEL",
+          "name" : "P1.2 - Acero de fácil mecanizado sulfurizados y fosforizados con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h2_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H2_2_DICT_SEL",
+          "name" : "H2.2 - Fundiciones templadas con una dureza de >55HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_H1_1_DICT_SEL",
+          "name" : "H1.1 - Fundición en frío con una dureza de <440HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_s1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_S1_1_DICT_SEL",
+          "name" : "S1.1 - Titanio o aleaciones de titanio, con una dureza de <200HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P_DICT_SEL",
+          "name" : "P - Acero y acero fundido (aceros con un contenido de aleación del 10% y una dureza < 45HRC)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H3_DICT_SEL",
+          "name" : "H3 - Aceros templados <55HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_4_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_4_DICT_SEL",
+          "name" : "K4.4 - Fundición dúctil austemperada con una dureza de 280 - 320HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k3_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K3_1_DICT_SEL",
+          "name" : "K3.1 - Fundición Dúctil (nodular/esferiodal), ferrítica con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n2_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N2_3_DICT_SEL",
+          "name" : "N2.3 - Fundición de aluminio con una dureza de 90 < 140HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m3_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M3_1_DICT_SEL",
+          "name" : "M3.1 - Acero inoxidable austenítico con una dureza de < 200HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h3_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H3_2_DICT_SEL",
+          "name" : "H3.2 - Aceros templados con una dureza de 51 - 55HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n3_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N3_2_DICT_SEL",
+          "name" : "N3.2 - Aleaciones de cobre de viruta corta con maquinabilidad moderada",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k5_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K5_2_DICT_SEL",
+          "name" : "K5.2 - Vermicular, grafito compactado con una dureza de  180 - 220HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N2_DICT_SEL",
+          "name" : "N2 - Fundición de aluminio",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p2_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P2_3_DICT_SEL",
+          "name" : "P2.3 - Acero con un contenido alto de carbono > 0.55%C con una dureza de < 300HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K_DICT_SEL",
+          "name" : "K - Fundición (fundición de hierro y aleaciones de carbono con un contenido de carbono de  > 2% )",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M3_DICT_SEL",
+          "name" : "M3 - Acero inoxidable austenítico (aleaciones de cromo - níquel y cromo - níquel - manganeso)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_3_DICT_SEL",
+          "name" : "K4.3 - Fundición dúctil austemperada con una dureza de 240 - 280HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h3_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H3_1_DICT_SEL",
+          "name" : "H3.1 - Aceros templados con una dureza de <51HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_5_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_5_DICT_SEL",
+          "name" : "K4.5 - Fundición dúctil austemperada con una dureza de 320 - 360HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n2_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N2_1_DICT_SEL",
+          "name" : "N2.1 - Fundición de aluminio con una dureza de < 75HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P2_DICT_SEL",
+          "name" : "P2 - Aceros al carbono (aceros compuestos principalmente de hierro y carbono)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N1_1_DICT_SEL",
+          "name" : "N1.1 - Aluminio y aluminio forjado con una dureza de < 60HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n3_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N3_3_DICT_SEL",
+          "name" : "N3.3 - Cobre electrolítico y aleaciones de cobre de viruta larga con baja maquinabilidad",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_s1_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_S1_2_DICT_SEL",
+          "name" : "S1.2 - Aleaciones de titanio, con una dureza de 200 - 280HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m2_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M2_1_DICT_SEL",
+          "name" : "M2.1 - Acero inoxidable martensítico con una dureza de < 200HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n2_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N2_2_DICT_SEL",
+          "name" : "N2.2 - Fundición de aluminio con una dureza de 75 - 90HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p4_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P4_3_DICT_SEL",
+          "name" : "P4.3 - Acero de herramientas con un dureza de 39 - 45HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m1_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M1_1_DICT_SEL",
+          "name" : "M1.1 - Acero inoxidable ferrítico con una dureza de < 160HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N3_DICT_SEL",
+          "name" : "N3 - Cobre o aleaciones de cobre",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K2_DICT_SEL",
+          "name" : "K2 - Fundición maleable (GTS/GTW) (fundiciones de hierro-carbono tratadas térmicamente con una microestructura libre de grafito)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N_DICT_SEL",
+          "name" : "N - Materiales No Férreos (incluidas las aleaciones sin una cantidad apreciable de hierro)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m3_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M3_2_DICT_SEL",
+          "name" : "M3.2 - Acero inoxidable austenítico con una dureza de 200 - 260HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M2_DICT_SEL",
+          "name" : "M2 - Acero inoxidable martensítico (aleaciones al cromo endurecidas)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k2_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K2_3_DICT_SEL",
+          "name" : "K2.3 - Fundición maleable, perlítica con una dureza de 200 - 240HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P1_DICT_SEL",
+          "name" : "P1 - Acero de fácil mecanizado (aceros al carbono con mayor maquinabilidad)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h2_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H2_1_DICT_SEL",
+          "name" : "H2.1 - Fundiciones templadas con una dureza de <55HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k1_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K1_3_DICT_SEL",
+          "name" : "K1.3 - Fundición gris, perlítica con una dureza de 240 - 280HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_2_DICT_SEL",
+          "name" : "K4.2 - Fundición austenítica con una dureza de 180 - 240HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p4_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P4_2_DICT_SEL",
+          "name" : "P4.2 - Acero de herramientas con un dureza de 26 - 39RC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m4_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M4_DICT_SEL",
+          "name" : "M4 - Acero inoxidable Super-Austenítico, Duplex o Endurecidos por Precipitación (aleaciones austeníticas con > 20% Ni, microestructura austenítico-ferrítica o endurecidos por precipitación)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_h2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_H2_DICT_SEL",
+          "name" : "H2 - Fundiciones templadas",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K1_DICT_SEL",
+          "name" : "K1 - Fundición gris (GG) (fundición de hierro y carbono con microestructura de grafito laminar)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m4_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M4_1_DICT_SEL",
+          "name" : "M4.1 - Acero inoxidable austenítico-ferrítico o super-austenítico con una dureza de < 300HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k4_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K4_DICT_SEL",
+          "name" : "K4 - Fundición dúctil austenítica o austemperada (Ni-Resist/ADI) (Fundiciones de hierro-carbono  con microestructura austenítica o ausferrita)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N1_DICT_SEL",
+          "name" : "N1 - Aleaciones de aluminio forjado",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_n3_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_N3_1_DICT_SEL",
+          "name" : "N3.1 - Aleaciones decobre de fácil mecanización con excelente maquinabilidad.",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k5_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K5_1_DICT_SEL",
+          "name" : "K5.1 - Vermicular, grafito compactado con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k2_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K2_2_DICT_SEL",
+          "name" : "K2.2 - Fundición maleable, ferrítica o perlítica con una dureza de 160 - 200HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p4_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P4_1_DICT_SEL",
+          "name" : "P4.1 - Acero de herramientas con un dureza de < 26HRC",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p3_1_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P3_1_DICT_SEL",
+          "name" : "P3.1 - Acero aleado con una dureza de < 180HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_p3_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_P3_3_DICT_SEL",
+          "name" : "P3.3 -  Acero aleado con una dureza de  260 - 360HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k5_3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K5_3_DICT_SEL",
+          "name" : "K5.3 - Vermicular, grafito compactado con una dureza de 220 - 260HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k1_2_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K1_2_DICT_SEL",
+          "name" : "K1.2 - Fundición gris, ferrítica-perlítica o perlítia con una dureza de 180 - 240HB",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_k3_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_BLACK.png"
+             },
+             "value" : "Primera Opción"
+          } ],
+          "id" : "MaterialApplication_K3_DICT_SEL",
+          "name" : "K3 - Fundición Dúctil (GGG) (fundición de hierro y carbono con microestructura de grafito nodular)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/Applications.materialapplication_m_dict_sel",
+          "comparable" : true,
+          "featureValues" : [ {
+             "icon" : {
+                "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/IC_MATGROUP_POSSIBLE.png"
+             },
+             "value" : "Opción Alternativa"
+          } ],
+          "id" : "MaterialApplication_M_DICT_SEL",
+          "name" : "M - Acero Inoxidable (aceros resistentes a la corrosión con un contenido de cromo de  ≥ 11% )",
+          "range" : false
+       } ],
+       "name" : "Applications"
+    }, {
+       "code" : "CuttingConditions",
+       "features" : [ {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "61"
+          } ],
+          "id" : "CuttingSpeed_K2_3_MET_NUM",
+          "name" : "Cutting speed for K2.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P4_1_MET_NUM",
+          "name" : "Cutting feed for P4.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_s1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_S1_2_MET_NUM",
+          "name" : "Cutting feed for S1.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "64"
+          } ],
+          "id" : "CuttingSpeed_P4_2_MET_NUM",
+          "name" : "Cutting speed for P4.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P2_2_MET_NUM",
+          "name" : "Cutting feed for P2.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_h3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_H3_2_MET_NUM",
+          "name" : "Cutting feed for H3.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_s1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "38"
+          } ],
+          "id" : "CuttingSpeed_S1_3_MET_NUM",
+          "name" : "Cutting speed for S1.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p4_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_P4_3_MET_NUM",
+          "name" : "Cutting feed for P4.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_h2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "31"
+          } ],
+          "id" : "CuttingSpeed_H2_1_MET_NUM",
+          "name" : "Cutting speed for H2.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_K1_2_MET_NUM",
+          "name" : "Cutting feed for K1.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P4_2_MET_NUM",
+          "name" : "Cutting feed for P4.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "102"
+          } ],
+          "id" : "CuttingSpeed_P3_2_MET_NUM",
+          "name" : "Cutting speed for P3.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "25"
+          } ],
+          "id" : "CuttingSpeed_M4_2_MET_NUM",
+          "name" : "Cutting speed for M4.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P1_2_MET_NUM",
+          "name" : "Cutting feed for P1.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_h3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_H3_1_MET_NUM",
+          "name" : "Cutting feed for H3.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k5_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "66"
+          } ],
+          "id" : "CuttingSpeed_K5_2_MET_NUM",
+          "name" : "Cutting speed for K5.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "128"
+          } ],
+          "id" : "CuttingSpeed_P2_2_MET_NUM",
+          "name" : "Cutting speed for P2.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "105"
+          } ],
+          "id" : "CuttingSpeed_K1_1_MET_NUM",
+          "name" : "Cutting speed for K1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K3_3_MET_NUM",
+          "name" : "Cutting feed for K3.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "190"
+          } ],
+          "id" : "CuttingSpeed_P1_2_MET_NUM",
+          "name" : "Cutting speed for P1.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_h2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_H2_1_MET_NUM",
+          "name" : "Cutting feed for H2.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M3_1_MET_NUM",
+          "name" : "Cutting feed for M3.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_h3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "29"
+          } ],
+          "id" : "CuttingSpeed_H3_2_MET_NUM",
+          "name" : "Cutting speed for H3.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_M2_3_MET_NUM",
+          "name" : "Cutting feed for M2.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "52"
+          } ],
+          "id" : "CuttingSpeed_M2_2_MET_NUM",
+          "name" : "Cutting speed for M2.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "58"
+          } ],
+          "id" : "CuttingSpeed_K1_3_MET_NUM",
+          "name" : "Cutting speed for K1.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N1_2_MET_NUM",
+          "name" : "Cutting feed for N1.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_h1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "53"
+          } ],
+          "id" : "CuttingSpeed_H1_1_MET_NUM",
+          "name" : "Cutting speed for H1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "197"
+          } ],
+          "id" : "CuttingSpeed_P1_3_MET_NUM",
+          "name" : "Cutting speed for P1.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "238"
+          } ],
+          "id" : "CuttingSpeed_N1_1_MET_NUM",
+          "name" : "Cutting speed for N1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M1_2_MET_NUM",
+          "name" : "Cutting feed for M1.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K2_3_MET_NUM",
+          "name" : "Cutting feed for K2.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k4_4_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K4_4_MET_NUM",
+          "name" : "Cutting feed for K4.4 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "77"
+          } ],
+          "id" : "CuttingSpeed_K4_1_MET_NUM",
+          "name" : "Cutting speed for K4.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k4_5_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "30"
+          } ],
+          "id" : "CuttingSpeed_K4_5_MET_NUM",
+          "name" : "Cutting speed for K4.5 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N3_3_MET_NUM",
+          "name" : "Cutting feed for N3.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k5_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K5_1_MET_NUM",
+          "name" : "Cutting feed for K5.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M3_2_MET_NUM",
+          "name" : "Cutting feed for M3.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "29"
+          } ],
+          "id" : "CuttingSpeed_M4_1_MET_NUM",
+          "name" : "Cutting speed for M4.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P1_1_MET_NUM",
+          "name" : "Cutting feed for P1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K2_2_MET_NUM",
+          "name" : "Cutting feed for K2.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k4_4_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "36"
+          } ],
+          "id" : "CuttingSpeed_K4_4_MET_NUM",
+          "name" : "Cutting speed for K4.4 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "190"
+          } ],
+          "id" : "CuttingSpeed_N2_3_MET_NUM",
+          "name" : "Cutting speed for N2.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "105"
+          } ],
+          "id" : "CuttingSpeed_N3_3_MET_NUM",
+          "name" : "Cutting speed for N3.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "113"
+          } ],
+          "id" : "CuttingSpeed_P2_3_MET_NUM",
+          "name" : "Cutting speed for P2.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k5_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "50"
+          } ],
+          "id" : "CuttingSpeed_K5_3_MET_NUM",
+          "name" : "Cutting speed for K5.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "86"
+          } ],
+          "id" : "CuttingSpeed_P3_3_MET_NUM",
+          "name" : "Cutting speed for P3.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P2_3_MET_NUM",
+          "name" : "Cutting feed for P2.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "64"
+          } ],
+          "id" : "CuttingSpeed_M2_1_MET_NUM",
+          "name" : "Cutting speed for M2.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K2_1_MET_NUM",
+          "name" : "Cutting feed for K2.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M2_2_MET_NUM",
+          "name" : "Cutting feed for M2.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "354"
+          } ],
+          "id" : "CuttingSpeed_N3_1_MET_NUM",
+          "name" : "Cutting speed for N3.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_s1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_S1_3_MET_NUM",
+          "name" : "Cutting feed for S1.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K3_2_MET_NUM",
+          "name" : "Cutting feed for K3.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "179"
+          } ],
+          "id" : "CuttingSpeed_N1_2_MET_NUM",
+          "name" : "Cutting speed for N1.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P1_3_MET_NUM",
+          "name" : "Cutting feed for P1.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N3_1_MET_NUM",
+          "name" : "Cutting feed for N3.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k5_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K5_2_MET_NUM",
+          "name" : "Cutting feed for K5.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K4_2_MET_NUM",
+          "name" : "Cutting feed for K4.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "71"
+          } ],
+          "id" : "CuttingSpeed_M1_1_MET_NUM",
+          "name" : "Cutting speed for M1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "44"
+          } ],
+          "id" : "CuttingSpeed_M2_3_MET_NUM",
+          "name" : "Cutting speed for M2.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "75"
+          } ],
+          "id" : "CuttingSpeed_P4_1_MET_NUM",
+          "name" : "Cutting speed for P4.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "61"
+          } ],
+          "id" : "CuttingSpeed_M1_2_MET_NUM",
+          "name" : "Cutting speed for M1.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M2_1_MET_NUM",
+          "name" : "Cutting feed for M2.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "83"
+          } ],
+          "id" : "CuttingSpeed_K3_1_MET_NUM",
+          "name" : "Cutting speed for K3.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_s1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "52"
+          } ],
+          "id" : "CuttingSpeed_S1_1_MET_NUM",
+          "name" : "Cutting speed for S1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k4_5_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K4_5_MET_NUM",
+          "name" : "Cutting feed for K4.5 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "76"
+          } ],
+          "id" : "CuttingSpeed_K2_2_MET_NUM",
+          "name" : "Cutting speed for K2.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "77"
+          } ],
+          "id" : "CuttingSpeed_K1_2_MET_NUM",
+          "name" : "Cutting speed for K1.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p4_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "52"
+          } ],
+          "id" : "CuttingSpeed_P4_3_MET_NUM",
+          "name" : "Cutting speed for P4.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_N2_2_MET_NUM",
+          "name" : "Cutting feed for N2.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_N2_1_MET_NUM",
+          "name" : "Cutting feed for N2.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N3_2_MET_NUM",
+          "name" : "Cutting feed for N3.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P2_1_MET_NUM",
+          "name" : "Cutting feed for P2.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k5_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "86"
+          } ],
+          "id" : "CuttingSpeed_K5_1_MET_NUM",
+          "name" : "Cutting speed for K5.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "51"
+          } ],
+          "id" : "CuttingSpeed_K3_3_MET_NUM",
+          "name" : "Cutting speed for K3.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n2_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_N2_3_MET_NUM",
+          "name" : "Cutting feed for N2.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k5_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K5_3_MET_NUM",
+          "name" : "Cutting feed for K5.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K4_1_MET_NUM",
+          "name" : "Cutting feed for K4.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P3_2_MET_NUM",
+          "name" : "Cutting feed for P3.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m4_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_M4_1_MET_NUM",
+          "name" : "Cutting feed for M4.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M3_3_MET_NUM",
+          "name" : "Cutting feed for M3.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_h2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "29"
+          } ],
+          "id" : "CuttingSpeed_H2_2_MET_NUM",
+          "name" : "Cutting speed for H2.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_K1_1_MET_NUM",
+          "name" : "Cutting feed for K1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "126"
+          } ],
+          "id" : "CuttingSpeed_P3_1_MET_NUM",
+          "name" : "Cutting speed for P3.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "33"
+          } ],
+          "id" : "CuttingSpeed_M3_2_MET_NUM",
+          "name" : "Cutting speed for M3.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_K1_3_MET_NUM",
+          "name" : "Cutting feed for K1.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "170"
+          } ],
+          "id" : "CuttingSpeed_P1_1_MET_NUM",
+          "name" : "Cutting speed for P1.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_M1_1_MET_NUM",
+          "name" : "Cutting feed for M1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_h2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_H2_2_MET_NUM",
+          "name" : "Cutting feed for H2.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "58"
+          } ],
+          "id" : "CuttingSpeed_K4_2_MET_NUM",
+          "name" : "Cutting speed for K4.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_s1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_S1_1_MET_NUM",
+          "name" : "Cutting feed for S1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_m4_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_M4_2_MET_NUM",
+          "name" : "Cutting feed for M4.2 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "209"
+          } ],
+          "id" : "CuttingSpeed_N3_2_MET_NUM",
+          "name" : "Cutting speed for N3.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_p2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "145"
+          } ],
+          "id" : "CuttingSpeed_P2_1_MET_NUM",
+          "name" : "Cutting speed for P2.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "39"
+          } ],
+          "id" : "CuttingSpeed_M3_1_MET_NUM",
+          "name" : "Cutting speed for M3.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "119"
+          } ],
+          "id" : "CuttingSpeed_N1_3_MET_NUM",
+          "name" : "Cutting speed for N1.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n2_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "263"
+          } ],
+          "id" : "CuttingSpeed_N2_2_MET_NUM",
+          "name" : "Cutting speed for N2.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K3_1_MET_NUM",
+          "name" : "Cutting feed for K3.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "93"
+          } ],
+          "id" : "CuttingSpeed_K2_1_MET_NUM",
+          "name" : "Cutting speed for K2.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k3_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "64"
+          } ],
+          "id" : "CuttingSpeed_K3_2_MET_NUM",
+          "name" : "Cutting speed for K3.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N1_1_MET_NUM",
+          "name" : "Cutting feed for N1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_n2_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "293"
+          } ],
+          "id" : "CuttingSpeed_N2_1_MET_NUM",
+          "name" : "Cutting speed for N2.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_n1_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.429"
+          } ],
+          "id" : "CuttingFeed_N1_3_MET_NUM",
+          "name" : "Cutting feed for N1.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_h1_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.229"
+          } ],
+          "id" : "CuttingFeed_H1_1_MET_NUM",
+          "name" : "Cutting feed for H1.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P3_3_MET_NUM",
+          "name" : "Cutting feed for P3.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_k4_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "43"
+          } ],
+          "id" : "CuttingSpeed_K4_3_MET_NUM",
+          "name" : "Cutting speed for K4.3 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_k4_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_K4_3_MET_NUM",
+          "name" : "Cutting feed for K4.3 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_s1_2_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "43"
+          } ],
+          "id" : "CuttingSpeed_S1_2_MET_NUM",
+          "name" : "Cutting speed for S1.2 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_h3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "35"
+          } ],
+          "id" : "CuttingSpeed_H3_1_MET_NUM",
+          "name" : "Cutting speed for H3.1 (m per min)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingfeed_p3_1_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "mm/rev",
+             "symbol" : "mm/rev"
+          },
+          "featureValues" : [ {
+             "value" : "0.319"
+          } ],
+          "id" : "CuttingFeed_P3_1_MET_NUM",
+          "name" : "Cutting feed for P3.1 (mm per rev)",
+          "range" : false
+       }, {
+          "code" : "DpClassificationCatalog/1.0/CuttingConditions.cuttingspeed_m3_3_met_num",
+          "comparable" : true,
+          "featureUnit" : {
+             "name" : "m/min",
+             "symbol" : "m/min"
+          },
+          "featureValues" : [ {
+             "value" : "30"
+          } ],
+          "id" : "CuttingSpeed_M3_3_MET_NUM",
+          "name" : "Cutting speed for M3.3 (m per min)",
+          "range" : false
+       } ],
+       "name" : "CuttingConditions"
+    } ],
+    "code" : "5978955",
+    "configurable" : false,
+    "deliveryCenters" : [ {
+       "stockLevel" : 19,
+       "stockLevelStatus" : "INSTOCK",
+       "warehouse" : "Centro de Distribución de America"
+    }, {
+       "isDefault" : true,
+       "stockLevel" : 0,
+       "stockLevelStatus" : "DELIVERYDATECONFIRMATION",
+       "warehouse" : "Brazil Distribution Center"
+    }, {
+       "stockLevel" : 2,
+       "stockLevelStatus" : "INSTOCK",
+       "warehouse" : "Centro de Distribución de Europa"
+    } ],
+    "description" : "Broca alto rendimiento FORCE X con mango cilíndrico NC DIN 6535HA, diámetro 0.6250\" (5/8) con longitud total de 133mm y longitud de filo de  82mm según norma DIN 6537 L con punta dividida modificada de 4 facetas 140°, metal duro con recubrimiento TiAlN, alma paralela continuamente adelgazada y agujeros de refrigeración interna 5xD para taladrado sin picado en acero, acero inoxidable, fundición, materiales no férreos, super-aleaciones y materiales endurecidos",
+    "downloads" : [ {
+       "code" : "R4535-8_5978955_3D",
+       "mime" : "stp",
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/R4535-8_5978955_3D.STP",
+       "name" : "R4535-8_5978955_3D"
+    } ],
+    "images" : [ {
+       "imageType" : "PRIMARY",
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/R453_ANGLE.png"
+    }, {
+       "imageType" : "DIMENSIONAL",
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/R453_DIM.png"
+    }, {
+       "imageType" : "SECONDARY",
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/R453_SIDE.png"
+    }, {
+       "imageType" : "ADDITIONAL",
+       "url" : "https://5wyuco84ao39w9tsgkkmnmx.blob.core.windows.net/assetshandover/wex_standard/R453_FRONT.png"
+    }, {
+    }, {
+    } ],
+    "lifecycleStatus" : "LCS20",
+    "minOrderQuantity" : 1,
+    "name" : "R4535/8",
+    "numberOfReviews" : 0,
+    "priceRange" : {
+    },
+    "purchasable" : true,
+    "stock" : {
+       "isValueRounded" : false,
+       "stockLevelStatus" : "INSTOCK"
+    },
+    "stockInfo" : {
+       "stockLevel" : 21,
+       "stockLevelStatus" : "INSTOCK"
+    },
+    "summary" : "Broca corta Force X, refrigeración interna 5×D",
+    "url" : "/br/products/5978955"
+ }
