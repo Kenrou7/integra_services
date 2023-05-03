@@ -1,3 +1,4 @@
+import { buscarCoincidencias } from "./util/searchUtil"
 let numberOfImages: number = 4
 
 let imagesDisplay: HTMLElement
@@ -14,6 +15,13 @@ let counter: number = 0
 
 window.onload = function() {
     startSlider()
+    const searchInput: HTMLInputElement = document.getElementById("buscador_palabra") as HTMLInputElement;
+    searchInput.oninput= function(e:any){
+        let palabraBuscada = e.target?.value
+        const coincidencias:string[] =buscarCoincidencias(palabraBuscada)
+        console.log(coincidencias)
+    }
+
 }
 
 function startSlider() {
