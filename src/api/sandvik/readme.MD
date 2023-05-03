@@ -38,3 +38,7 @@ fields=code,configurable,configuratorType,name,summary,price(FULL),images(galler
 lang=es
 &
 curr=EUR
+
+https://api.cdtrfbgg54-sandvikab1-p1-public.model-t.cc.commerce.ondemand.com/occ/
+
+https://api.cdtrfbgg54-sandvikab1-p1-public.model-t.cc.commerce.ondemand.com/occ/v2/swagger-ui.html#/Base%20Sites/getBaseSites
