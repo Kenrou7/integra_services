@@ -16,13 +16,47 @@ let counter: number = 0
 window.onload = function() {
     startSlider()
     const searchInput: HTMLInputElement = document.getElementById("buscador_palabra") as HTMLInputElement;
-    searchInput.oninput= function(e:any){
+    let resultados_busqueda: HTMLElement = document.getElementById("resultados_busqueda") as HTMLElement;
+    let resultados_listado: HTMLElement = document.getElementById("resultados_listado") as HTMLElement;
+    const listado: HTMLElement[] = Array.from(document.querySelectorAll('li')) as HTMLElement[];
+    //resultados_listado.appendChild(listado)
+    
+    function consultarInput(e:any){
         let palabraBuscada = e.target?.value
-        const coincidencias:string[] =buscarCoincidencias(palabraBuscada)
-        console.log(coincidencias)
+        palabraBuscada =="" 
+            ? resultados_busqueda.style.zIndex="1" 
+            : resultados_busqueda.style.zIndex="0"
     }
 
+    searchInput.oninput= function(e:any){
+        let palabraBuscada = e.target?.value
+        //console.log(palabraBuscada)
+        consultarInput(palabraBuscada)
+        let coincidencias:string[]=buscarCoincidencias(palabraBuscada)
+        borrarListado()
+        coincidencias.forEach((item)=>{
+            if(!coincidencias.includes(item)){
+    		    coincidencias.push(item);
+    	    }
+            borrarListado()
+            for (let i = 0; i < coincidencias.length; i++) {
+                resultados_listado.innerHTML+= `<li class="resultado_item">${coincidencias[i]}</li>`;
+            }
+            //console.log(coincidencias);
+        })
+
+        console.log(coincidencias)
+    }
+    function borrarListado(){
+        if (resultados_listado.hasChildNodes()){
+            while(resultados_listado.childNodes.length >= 1){
+                resultados_listado.removeChild(resultados_listado.firstChild)
+            }
+        }
+    } 
+    consultarInput(e)
 }
+
 
 function startSlider() {
     imagesDisplay = document.querySelector(".images-display") as HTMLElement

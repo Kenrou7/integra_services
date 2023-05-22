@@ -116,6 +116,25 @@ header{
     height: 40px;
     box-sizing: border-box;
 }
+
+#resultados_busqueda{
+    background-color: white;
+    width: 50%;
+    height: fit-content;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: -1;
+}
+
+.resultado_item{
+    color: rgb(66, 66, 66);
+    list-style: none;
+    cursor:pointer;
+}
+#resultados_listado{
+    padding: 5px 5px 5px 15px;
+}
+
 #menu{
     display: none;
 }

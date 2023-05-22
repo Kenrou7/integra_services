@@ -1,9 +1,3 @@
-
-
-//palabra.addEventListener("click", buscarCoincidencias(palabra))
-
-
-//let palabra:string = "tor";
 let listadoDeElementos: string[] = [
   "tornillo",
   "tuerca",
@@ -28,5 +22,7 @@ export function buscarCoincidencias(palabra: any): any {
   return resultados;
 }
 
-//console.log(buscarCoincidencias(palabra));
+export function imprimirCoincidencias(palabra: any): any {
+  const impresion :any = document.createElement('li')
+}
 
